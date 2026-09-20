@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Battle Vault — Hand-built army carriers</title>
+<meta name="description" content="Hand-built carrier cases for transporting and protecting your Warhammer army. The Vault Foundry (£80) and Vault Mini (£60), or a custom build to fit your force.">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#17140f;
+    --ink-2:#211d16;
+    --paper:#f3efe6;
+    --paper-2:#e9e2d2;
+    --steel:#2a2d31;
+    --steel-2:#35383d;
+    --brass:#a9812f;
+    --brass-light:#c9a24f;
+    --line:rgba(255,255,255,0.12);
+    --line-dark:rgba(23,20,15,0.12);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);font-family:'IBM Plex Sans',system-ui,sans-serif;color:var(--ink);}
+  h1,h2,h3{font-family:'Oswald',system-ui,sans-serif;text-transform:uppercase;letter-spacing:0.02em;margin:0;}
+  a{color:inherit;text-decoration:none;}
+  a:hover{color:var(--brass);}
+  ul{margin:0;padding:0;}
+  li{list-style:none;}
+  img{max-width:100%;}
+  .wrap{max-width:1180px;margin:0 auto;padding-left:32px;padding-right:32px;}
+  .nav-links{display:flex;gap:32px;align-items:center;}
+  .nav-links a{color:var(--paper);font-size:14px;text-transform:uppercase;letter-spacing:0.06em;font-weight:500;}
+  .grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;}
+  .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;align-items:center;}
+  .grid-2.stretch{align-items:stretch;}
+  .card{background:var(--steel-2);border:1px solid var(--line);border-radius:4px;padding:28px;display:flex;flex-direction:column;}
+  .field{width:100%;padding:14px 16px;background:var(--ink-2);border:1px solid var(--line);color:var(--paper);border-radius:2px;font-family:'IBM Plex Sans',sans-serif;font-size:16px;}
+  .field::placeholder{color:#8a8477;}
+  .label{display:block;font-size:13px;letter-spacing:0.06em;text-transform:uppercase;color:var(--brass-light);margin-bottom:8px;font-weight:600;}
+  .btn{display:inline-flex;align-items:center;justify-content:center;padding:16px 32px;border-radius:2px;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:0.06em;font-weight:600;font-size:15px;border:1px solid transparent;cursor:pointer;}
+  .btn-brass{background:var(--brass);color:var(--ink);}
+  .btn-brass:hover{background:var(--brass-light);color:var(--ink);}
+  .btn-outline{background:transparent;border:1px solid var(--paper);color:var(--paper);}
+  .btn-outline:hover{background:var(--paper);color:var(--ink);}
+  .btn-dark{background:var(--ink);color:var(--paper);}
+  .eyebrow{font-size:13px;letter-spacing:0.12em;text-transform:uppercase;font-weight:600;margin-bottom:12px;}
+  .bullet{display:flex;gap:10px;align-items:flex-start;font-size:14px;}
+  .bullet span{color:var(--brass);font-weight:700;}
+  @media (max-width:900px){
+    .grid-3{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+    .grid-2{grid-template-columns:1fr;gap:28px;}
+    .nav-links{display:none;}
+  }
+  @media (max-width:560px){
+    .grid-3{grid-template-columns:1fr;}
+    .wrap{padding-left:20px;padding-right:20px;}
+  }
+</style>
+</head>
+<body>
+
+<div style="width:100%;min-height:100vh;background:var(--paper);overflow-x:hidden;">
+
+  <!-- NAV -->
+  <div style="position:sticky;top:0;z-index:20;background:var(--ink);border-bottom:1px solid var(--line);">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:76px;">
+      <a href="#top" aria-label="Battle Vault home" style="display:flex;align-items:center;gap:12px;">
+        <img src="assets/logo.png" alt="Battle Vault logo" style="height:44px;width:auto;display:block;">
+      </a>
+      <nav class="nav-links">
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Sizes &amp; Pricing</a>
+        <a href="#custom">Custom Builds</a>
+      </nav>
+      <a href="#contact" class="btn btn-brass" style="padding:12px 24px;font-size:13px;">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div id="top" style="position:relative;min-height:640px;display:flex;align-items:center;overflow:hidden;">
+    <img src="assets/hero-case.jpg" alt="Closed gloss black Battle Vault carrier case standing upright" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+    <div style="position:absolute;inset:0;background:linear-gradient(100deg, rgba(23,20,15,0.94) 0%, rgba(23,20,15,0.82) 40%, rgba(23,20,15,0.55) 75%, rgba(23,20,15,0.35) 100%);z-index:1;"></div>
+    <div class="wrap" style="position:relative;z-index:2;padding-top:96px;padding-bottom:96px;">
+      <div style="max-width:620px;">
+        <div style="color:var(--brass-light);" class="eyebrow">Hand-built army carriers</div>
+        <h1 style="color:var(--paper);font-size:clamp(2.6rem, 6vw, 4.6rem);line-height:1.02;margin-bottom:24px;">Built to protect your army.<br>Built to travel.</h1>
+        <p style="color:var(--paper-2);font-size:18px;line-height:1.6;max-width:480px;margin-bottom:36px;">Solid-cased, hand-finished carriers for transporting your painted miniatures — locking latches, adjustable shelving and a case that shrugs off the boot of the car on the way to the club.</p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="#gallery" class="btn btn-brass">See the Gallery</a>
+          <a href="#contact" class="btn btn-outline">Get a Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <div style="background:var(--paper);border-bottom:1px solid var(--line-dark);">
+    <div class="wrap" style="padding-top:64px;padding-bottom:64px;">
+      <div class="grid-3">
+        <div>
+          <div style="width:44px;height:3px;background:var(--brass);margin-bottom:18px;"></div>
+          <h3 style="font-size:19px;margin-bottom:10px;">Hand-built, case by case</h3>
+          <p style="font-size:15px;line-height:1.6;color:#4a453c;">Every carrier is built and finished individually — nothing is mass-produced or bought in.</p>
+        </div>
+        <div>
+          <div style="width:44px;height:3px;background:var(--brass);margin-bottom:18px;"></div>
+          <h3 style="font-size:19px;margin-bottom:10px;">Adjustable, not fixed</h3>
+          <p style="font-size:15px;line-height:1.6;color:#4a453c;">Slotted internal shelving means tray height moves to fit tall centrepieces or stacks of infantry.</p>
+        </div>
+        <div>
+          <div style="width:44px;height:3px;background:var(--brass);margin-bottom:18px;"></div>
+          <h3 style="font-size:19px;margin-bottom:10px;">Built to lock down</h3>
+          <p style="font-size:15px;line-height:1.6;color:#4a453c;">Brass latches and a reinforced carry handle keep everything shut tight in transit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <div id="gallery" style="background:var(--paper-2);border-bottom:1px solid var(--line-dark);">
+    <div class="wrap" style="padding-top:80px;padding-bottom:80px;">
+      <div style="margin-bottom:44px;max-width:560px;">
+        <div style="color:var(--brass);" class="eyebrow">The Cases</div>
+        <h2 style="font-size:clamp(1.8rem, 3.5vw, 2.6rem);">See them in the field</h2>
+      </div>
+      <div class="grid-3">
+        <figure style="margin:0;">
+          <img src="assets/gallery-loaded.jpg" alt="Two grey Battle Vault cases open, packed with painted Warhammer miniatures on foam trays" style="width:100%;height:320px;object-fit:cover;border-radius:4px;display:block;">
+          <figcaption style="font-size:14px;color:#4a453c;margin-top:12px;">Fully loaded and ready for a game night.</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <img src="assets/gallery-lineup.jpg" alt="Matte grey and gloss black Battle Vault cases lined up side by side" style="width:100%;height:320px;object-fit:cover;border-radius:4px;display:block;">
+          <figcaption style="font-size:14px;color:#4a453c;margin-top:12px;">Matte grey and gloss black, side by side.</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <img src="assets/gallery-shelving.jpg" alt="Close view of a Battle Vault case interior showing adjustable slotted shelving" style="width:100%;height:320px;object-fit:cover;border-radius:4px;display:block;">
+          <figcaption style="font-size:14px;color:#4a453c;margin-top:12px;">Slotted shelving — every level height-adjustable.</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <div style="width:100%;height:320px;background:var(--ink);border-radius:4px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+            <img src="assets/hero-case.jpg" alt="Closed gloss black Battle Vault case with brass latch and carry handle" style="width:100%;height:100%;object-fit:contain;display:block;">
+          </div>
+          <figcaption style="font-size:14px;color:#4a453c;margin-top:12px;">Gloss black finish, standard on every build.</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <img src="assets/gallery-empty.jpg" alt="Open gloss black Battle Vault case showing empty adjustable tray shelving" style="width:100%;height:320px;object-fit:cover;border-radius:4px;display:block;">
+          <figcaption style="font-size:14px;color:#4a453c;margin-top:12px;">Empty and ready to be fitted out.</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <img src="assets/gallery-interior.jpg" alt="Interior close-up comparing tray shelving in a matte grey and a gloss black Battle Vault case" style="width:100%;height:320px;object-fit:cover;border-radius:4px;display:block;">
+          <figcaption style="font-size:14px;color:#4a453c;margin-top:12px;">Two finishes, the same solid build underneath.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDEO -->
+  <div style="background:var(--ink);border-bottom:1px solid var(--line);">
+    <div class="wrap" style="padding-top:80px;padding-bottom:80px;">
+      <div style="margin-bottom:36px;max-width:560px;">
+        <div style="color:var(--brass-light);" class="eyebrow">See It In Action</div>
+        <h2 style="color:var(--paper);font-size:clamp(1.8rem, 3.5vw, 2.6rem);">A closer look</h2>
+      </div>
+      <div style="max-width:420px;margin:0 auto;">
+        <video controls playsinline preload="metadata" poster="assets/promo-poster.jpg" style="width:100%;border-radius:6px;display:block;background:#000;">
+          <source src="assets/promo.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRICING -->
+  <div id="pricing" style="background:var(--ink);border-bottom:1px solid var(--line);">
+    <div class="wrap" style="padding-top:88px;padding-bottom:88px;">
+      <div style="margin-bottom:44px;max-width:620px;">
+        <div style="color:var(--brass-light);" class="eyebrow">Sizes &amp; Pricing</div>
+        <h2 style="color:var(--paper);font-size:clamp(1.8rem, 3.5vw, 2.6rem);margin-bottom:20px;">Two sizes, built the same way</h2>
+        <p style="color:var(--paper-2);font-size:16px;line-height:1.7;">Every Battle Vault is built and finished by hand, whichever size you need. Gloss black finish as standard on both.</p>
+      </div>
+      <div class="grid-2 stretch">
+        <div class="card">
+          <h3 style="color:var(--paper);font-size:22px;margin-bottom:4px;">The Vault Foundry</h3>
+          <p style="color:var(--paper-2);font-size:14px;margin-bottom:20px;">Our standard build — fits most Combat Patrol-sized forces and beyond.</p>
+          <div style="width:100%;height:220px;background:var(--steel);border-radius:2px;margin-bottom:24px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+            <img src="assets/foundry.jpg" alt="Open Vault Foundry case showing the standard tray configuration" style="width:100%;height:100%;object-fit:contain;display:block;">
+          </div>
+          <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px;">
+            <span style="font-family:'Oswald',sans-serif;font-size:48px;color:var(--paper);font-weight:600;">£80</span>
+          </div>
+          <p style="color:var(--paper-2);font-size:14px;margin-bottom:20px;">Up to 12 adjustable trays included</p>
+          <div style="height:1px;background:var(--line);margin-bottom:20px;"></div>
+          <ul style="display:flex;flex-direction:column;gap:10px;flex-grow:1;margin-bottom:24px;">
+            <li class="bullet" style="color:var(--paper);"><span>—</span> Gloss black finish, standard</li>
+            <li class="bullet" style="color:var(--paper);"><span>—</span> Brass latches &amp; reinforced carry handle</li>
+            <li class="bullet" style="color:var(--paper);"><span>—</span> Built to order, by hand</li>
+          </ul>
+          <a href="#contact" class="btn btn-brass" style="width:100%;">Enquire About the Foundry</a>
+        </div>
+        <div class="card">
+          <h3 style="color:var(--paper);font-size:22px;margin-bottom:4px;">The Vault Mini</h3>
+          <p style="color:var(--paper-2);font-size:14px;margin-bottom:20px;">A smaller, lighter build for compact forces or getting started.</p>
+          <div style="width:100%;height:220px;background:var(--steel);border-radius:2px;margin-bottom:24px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+            <img src="assets/mini.jpg" alt="Open Vault Mini case showing the tray layout and latch" style="width:100%;height:100%;object-fit:contain;display:block;">
+          </div>
+          <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px;">
+            <span style="font-family:'Oswald',sans-serif;font-size:48px;color:var(--paper);font-weight:600;">£60</span>
+          </div>
+          <p style="color:var(--paper-2);font-size:14px;margin-bottom:20px;">Up to 8 adjustable trays included</p>
+          <div style="height:1px;background:var(--line);margin-bottom:20px;"></div>
+          <ul style="display:flex;flex-direction:column;gap:10px;flex-grow:1;margin-bottom:24px;">
+            <li class="bullet" style="color:var(--paper);"><span>—</span> Gloss black finish, standard</li>
+            <li class="bullet" style="color:var(--paper);"><span>—</span> Brass latch &amp; carry handle</li>
+            <li class="bullet" style="color:var(--paper);"><span>—</span> Built to order, by hand</li>
+          </ul>
+          <a href="#contact" class="btn btn-brass" style="width:100%;">Enquire About the Mini</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CUSTOM -->
+  <div id="custom" style="background:var(--paper);">
+    <div class="wrap" style="padding-top:80px;padding-bottom:80px;">
+      <div class="grid-2">
+        <img src="assets/gallery-lineup.jpg" alt="Range of Battle Vault finishes shown together, matte grey and gloss black" style="width:100%;height:380px;object-fit:cover;border-radius:4px;display:block;">
+        <div>
+          <div style="color:var(--brass);" class="eyebrow">Custom Builds</div>
+          <h2 style="font-size:clamp(1.8rem, 3.5vw, 2.6rem);margin-bottom:20px;">Make it yours</h2>
+          <p style="font-size:16px;line-height:1.7;color:#4a453c;margin-bottom:24px;">Every case starts from the Foundry or the Mini, but nothing about it is fixed. Get in touch to talk through:</p>
+          <ul style="display:flex;flex-direction:column;gap:14px;margin-bottom:28px;">
+            <li class="bullet" style="font-size:15px;"><span>—</span> Finish and colour, beyond the standard gloss black</li>
+            <li class="bullet" style="font-size:15px;"><span>—</span> Tray count and layout, sized to your army</li>
+            <li class="bullet" style="font-size:15px;"><span>—</span> Larger builds for bigger collections</li>
+          </ul>
+          <a href="#contact" class="btn btn-dark">Talk Through a Custom Build</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contact" style="background:var(--steel);border-top:1px solid var(--line);">
+    <div class="wrap" style="padding-top:88px;padding-bottom:88px;">
+      <div style="max-width:640px;margin:0 auto;text-align:center;margin-bottom:48px;">
+        <div style="color:var(--brass-light);" class="eyebrow">Get in Touch</div>
+        <h2 style="color:var(--paper);font-size:clamp(1.8rem, 3.5vw, 2.6rem);margin-bottom:16px;">Get a Quote</h2>
+        <p style="color:var(--paper-2);font-size:16px;line-height:1.6;">Tell us about your army and what you're after — we'll reply by email.</p>
+      </div>
+      <form id="enquiry-form" style="max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:20px;" onsubmit="return sendEnquiry(event)">
+        <div>
+          <label class="label" for="bv-name">Name</label>
+          <input id="bv-name" class="field" type="text" placeholder="Your name" required>
+        </div>
+        <div>
+          <label class="label" for="bv-email">Email</label>
+          <input id="bv-email" class="field" type="email" placeholder="you@example.com" required>
+        </div>
+        <div>
+          <label class="label" for="bv-faction">Army / Faction (optional)</label>
+          <input id="bv-faction" class="field" type="text" placeholder="e.g. Space Marines, Tau Empire">
+        </div>
+        <div>
+          <label class="label" for="bv-message">What are you after?</label>
+          <textarea id="bv-message" class="field" rows="5" placeholder="Roughly how many models, any finish or size in mind..." style="resize:vertical;font-family:'IBM Plex Sans',sans-serif;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-brass" style="margin-top:8px;">Send Enquiry</button>
+        <p style="text-align:center;color:var(--paper-2);font-size:14px;margin-top:4px;">This opens your email app with the details filled in. Prefer to write direct? <a href="mailto:thecustardpies@gmail.com" style="color:var(--brass-light);text-decoration:underline;">thecustardpies@gmail.com</a></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:var(--ink);">
+    <div class="wrap" style="padding-top:40px;padding-bottom:40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="assets/logo.png" alt="Battle Vault logo" style="height:32px;width:auto;">
+        <span style="color:var(--paper-2);font-size:13px;">Hand-built army carriers</span>
+      </div>
+      <a href="mailto:thecustardpies@gmail.com" style="color:var(--paper-2);font-size:13px;">thecustardpies@gmail.com</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function sendEnquiry(e) {
+    e.preventDefault();
+    var name = document.getElementById('bv-name').value || '';
+    var email = document.getElementById('bv-email').value || '';
+    var faction = document.getElementById('bv-faction').value || '';
+    var message = document.getElementById('bv-message').value || '';
+
+    var subject = encodeURIComponent('Battle Vault enquiry' + (name ? ' from ' + name : ''));
+    var bodyLines = [
+      'Name: ' + name,
+      'Email: ' + email,
+      'Army / Faction: ' + faction,
+      '',
+      message
+    ];
+    var body = encodeURIComponent(bodyLines.join('\n'));
+    window.location.href = 'mailto:thecustardpies@gmail.com?subject=' + subject + '&body=' + body;
+    return false;
+  }
+</script>
+
+</body>
+</html>
